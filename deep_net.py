@@ -3,7 +3,11 @@ from tensorflow.examples.tutorials.mnist import input_data
 
 mnist = input_data.read_data_sets("/tmp/data", one_hot=True)
 
+<<<<<<< HEAD
 n_nodes_hl1 = 600
+=======
+n_nodes_hl1 = 500
+>>>>>>> f04a6eeac2fba5e79298a7c07d563b1939446776
 n_nodes_hl2 = 750
 n_nodes_hl3 = 500
 
